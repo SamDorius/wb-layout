@@ -1,0 +1,163 @@
+
+.logo
+{
+    width: 200px;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.main
+{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ship
+{
+    width: 1000px;
+    height: 750px;
+    z-index: 0;
+}
+
+.border
+{
+    border: 2px solid black;
+}
+
+.this
+{
+    height: 100px;
+    width: 1000px;
+    position: absolute;
+    top: 7px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+}
+
+.text1
+{
+    line-height: 100px;
+    color: white;
+}
+
+.that1
+{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 450px;
+    display: flex;
+    flex-flow: column;
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+}
+
+.top1
+{
+    font-size: 20px;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.middle1
+{
+    font-size: 30px;
+    margin: 5px;
+}
+
+.bottom1
+{
+    padding: 15px;
+    border: 2px solid white;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.that2
+{
+    position: absolute;
+    top: 1175px;
+    height: 300px;
+    width: 300px;
+    color: white;
+    margin-left: 50px;
+}
+
+.middle2
+{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.that3
+{
+    position: absolute;
+    top: 1950px;
+    color: white;
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+}
+
+.that4
+{
+    position: absolute;
+    top: 2700px;
+    color: white;
+    height: 300px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.that5
+{
+    position: absolute;
+    top: 3300px;
+    color: white;
+    height: 400px;
+    width: 300px;
+    margin-left: 50px;
+}
+
+.bottom2
+{
+    font-size: 15px;
+    padding: 15px;
+    border: 2px solid white;
+    width: 100px;
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer
+{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 50px;
+}
+
+body
+{
+    background-color: black;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.copyRight
+{
+    color: gray;
+}
